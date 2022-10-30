@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "my-dagster-project"
+version = "0.1.0"
+description = ""
+authors = ["enzorooo <ph.enzomercado@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_dagster_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dagster = "^1.0.12"
+dagit = "^1.0.12"
+
+
+[tool.poetry.group.dev.dependencies]
+poetry-dotenv-plugin = "^0.1.0"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+# Dagster
+./dagster_home/*
+!./dagster_home/.gitkeep
+!./dagster_home/dagster.yaml
